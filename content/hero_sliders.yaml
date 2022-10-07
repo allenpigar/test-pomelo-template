@@ -1,0 +1,64 @@
+
+  - id: "5f94-1015-61c0"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 101
+      listed: true
+    data:
+      image: "https://qd4sf0hv.media.zestyio.com/slide_1.jpg"
+      slide_eyebrow: "Etiam vitae urna non mi semper pretium"
+      slide_header: "Curabitur dui felis, porttitor ut ex non, placerat euismod arcu."
+      sort_by: 1
+  - id: "76b6-2d76-6b35"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 102
+      listed: true
+    data:
+      image: "https://qd4sf0hv.media.zestyio.com/slide_2.jpg"
+      slide_eyebrow: "Aliquam erat"
+      slide_header: "Nam dolor diam, posuere a dui vel, aliquam tempus enim."
+      sort_by: 2
+  - id: "7d55-620e-9a4f"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 103
+      listed: true
+    data:
+      image: "https://qd4sf0hv.media.zestyio.com/slide_3.jpg"
+      slide_eyebrow: "Neque porro quisquam"
+      slide_header: "Nullam hendrerit tristique justo, ac ultricies ante consectetur semper."
+      sort_by: 3
