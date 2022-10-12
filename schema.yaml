@@ -6,7 +6,7 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: null
+    parent: "0"
     content: "/content/clippings.yaml"
     fields:
       - name: "site_name"
@@ -58,7 +58,7 @@
     listed: true
     hasRoute: true
     showAsTable: false
-    parent: null
+    parent: "0"
     view: "/views/homepage.tpl"
     content: "/content/homepage.yaml"
     fields:
@@ -123,7 +123,9 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: "homepage"
+    parent:
+      model: "homepage"
+      content: "zesty_home"
     content: "/content/hero_sliders.yaml"
     fields:
       - name: "image"
@@ -169,7 +171,9 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: "homepage"
+    parent:
+      model: "homepage"
+      content: "zesty_home"
     content: "/content/home_cards.yaml"
     fields:
       - name: "title"
@@ -215,7 +219,7 @@
     listed: true
     hasRoute: true
     showAsTable: false
-    parent: null
+    parent: "0"
     view: "/views/projects_page.tpl"
     content: "/content/projects_page.yaml"
     fields:
@@ -244,7 +248,9 @@
     listed: true
     hasRoute: true
     showAsTable: true
-    parent: "projects_page"
+    parent:
+      model: "projects_page"
+      content: "our-projects"
     view: "/views/projects.tpl"
     content: "/content/projects.yaml"
     fields:
@@ -300,7 +306,7 @@
     listed: true
     hasRoute: true
     showAsTable: false
-    parent: null
+    parent: "0"
     view: "/views/services_page.tpl"
     content: "/content/services_page.yaml"
     fields:
@@ -347,7 +353,7 @@
     listed: true
     hasRoute: true
     showAsTable: false
-    parent: null
+    parent: "0"
     view: "/views/about.tpl"
     content: "/content/about.yaml"
     fields:
@@ -376,7 +382,9 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: "about"
+    parent:
+      model: "about"
+      content: "about"
     content: "/content/team_members.yaml"
     fields:
       - name: "name"
@@ -422,7 +430,9 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: "services_page"
+    parent:
+      model: "services_page"
+      content: "our-services"
     content: "/content/services.yaml"
     fields:
       - name: "title"
@@ -468,7 +478,7 @@
     listed: true
     hasRoute: true
     showAsTable: false
-    parent: null
+    parent: "0"
     view: "/views/contact.tpl"
     content: "/content/contact.yaml"
     fields:
@@ -506,7 +516,7 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: null
+    parent: "0"
     view: "/views/navigation.tpl"
     content: "/content/navigation.yaml"
     fields:
@@ -553,7 +563,7 @@
     listed: true
     hasRoute: false
     showAsTable: false
-    parent: null
+    parent: "0"
     content: "/content/social_icons.yaml"
     fields:
       - name: "fontawesome_icon"
